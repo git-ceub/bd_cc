@@ -1,4 +1,17 @@
-Francisco
+-- Seleciona todos o médicos
+-- da tabela médicos 
+SELECT *
+FROM medicos;
 
--- Comando SELECT
--- Comando UPDATE
+SELECT nome, idade
+FROM medicos;
+
+SELECT *
+FROM medicos
+WHERE codm = 3;
+
+SELECT *
+FROM medicos
+WHERE idade > 30 
+	OR especialidade = 'pediatria';
+    
